@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="This is my portfolio site">
+    <meta name="keyword" content="bolt,bootstrap,portfolio">
     <title>Bolt - Free Bootstrap 3 Theme</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -12,86 +14,110 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <div class="content-inner clearfix">
-        <div class="header-box">
+    <header class="header-main">
+      <div class="header-inner content-inner clearfix">
+        <div class="header-box-left">
           <i class="fa fa-2x fa-bolt bolt-icon" aria-hidden="true"></i>
         </div>
-        <div class="header-box">
-          <p class="header-contact">Contact</p>
+        <div class="ham-box">
+        <a class="ham-menu" href="#">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </a>
+        <div class="header-box-right">
+          <ul>
+            <li><a href="#!" class="header-contact">Contact</a></li>
+          </ul>
+        </div>
         </div>
       </div>
     </header>
-    <div class="main-title">
-      <div class="content-inner">
-        <h1>Bolt&nbsp;Theme</h1>
-        <h2>FREE&nbsp;BOOTSTRAP&nbsp;THEMES</h2>
+    <section class="main-title">
+      <div class="main-title-inner content-inner">
+        <h1 class="h1-text">Bolt Theme</h1>
+        <p class="title-text">FREE BOOTSTRAP THEMES</p>
       </div>
-    </div>
-    <article>
+    </section>
+    <article class="art-main">
       <div class="content-inner clearfix">
-        <div class="article-left art-content">
+        <div class="art-left">
           <img class="iphone-img" src="img/iphone.png" alt="iphoneの写真">
         </div>
-        <div class="article-right art-content">
-          <p class="art-text art-text-top">WHAT&nbsp;WE&nbsp;CAN&nbsp;DO?
-          </p>
-          <p class="art-text art-text-bottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the<br> 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.
+        <div class="art-right">
+          <h2 class="art-text art-text-top">WHAT WE CAN DO?</h2>
+          <p class="art-text art-text-bottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
         </div>
       </div>
     </article>
-    <section>
+    <section class="section-main">
       <div class="section-content content-inner">
-        <div class="section-title">
-          OUR&nbsp;LATEST&nbsp;WORK
-        </div>
+        <h2 class="section-title">OUR LATEST WORK</h2>
         <div class="section-img">
-          <img class="img-content" src="img/01.jpg" alt="img1">
-          <img class="img-content" src="img/02.jpg" alt="img2">
-          <img class="img-content" src="img/03.jpg" alt="img3">
-        </div>
-        <div class="section-img">
-          <img class="img-content" src="img/04.jpg" alt="img4">
-          <img class="img-content" src="img/05.jpg" alt="img5">
-          <img class="img-content" src="img/06.jpg" alt="img6">
+          <a href="#!" class="img-hover"><img class="img-content" src="img/01.jpg" alt="img1"></a>
+          <a href="#!" class="img-hover"><img class="img-content" src="img/02.jpg" alt="img2"></a>
+          <a href="#!" class="img-hover"><img class="img-content" src="img/03.jpg" alt="img3"></a>
+          <a href="#!" class="img-hover"><img class="img-content" src="img/04.jpg" alt="img4"></a>
+          <a href="#!" class="img-hover"><img class="img-content" src="img/05.jpg" alt="img5"></a>
+          <a href="#!" class="img-hover"><img class="img-content" src="img/06.jpg" alt="img6"></a>
         </div>
         <div class="text-and-email">
-          <p class="section-text">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry. Lorem Ipsum has been the industry's standard dummy<br> text ever.</p>
-          <p class="section-email">Email&nbsp;Me!</p>
+          <p class="section-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+          <a href="#!" class="section-email">Email Me!</a>
         </div>
       </div>
     </section>
-    <div class="figure-box">
-      <div class="content-inner">
-        <div class="figure-title">
-          OUR&nbsp;SKILLS
-        </div>
+    <section class="figure-box">
+      <div class="figure-main content-inner">
+        <h2 class="figure-title">OUR SKILLS</h2>
         <div class="figure-img clearfix">
-          <figure><img src="img/circle_01.png" alt="circle1"><figcaption>JavaScript</figcaption></figure>
-          <figure><img src="img/circle_02.png" alt="circle2"><figcaption>Bootstrap</figcaption></figure>
-          <figure><img src="img/circle_03.png" alt="circle3"><figcaption>WordPress</figcaption></figure>
-         <figure><img src="img/circle_04.png" alt="circle4"><figcaption>Photoshop</figcaption></figure>
+          <figure class="fig-img-content">
+            <img src="img/circle_01.png" alt="circle1">
+            <figcaption class="img-name">JavaScript</figcaption>
+          </figure>
+          <figure class="fig-img-content">
+            <img src="img/circle_02.png" alt="circle2">
+            <figcaption class="img-name">Bootstrap</figcaption>
+          </figure>
+          <figure class="fig-img-content">
+            <img src="img/circle_03.png" alt="circle3">
+            <figcaption class="img-name">WordPress</figcaption>
+          </figure>
+          <figure class="fig-img-content">
+            <img src="img/circle_04.png" alt="circle4">
+            <figcaption class="img-name">Photoshop</figcaption>
+          </figure>
         </div>
       </div>
-    </div>
-    <div class="nav-box">
-      <div class="content-inner">
+    </section>
+    <section class="nav-box">
+      <div class="nav-main content-inner">
         <nav class="nav-content">
-          <i class="nav-icon fa fa-3x fa-facebook" aria-hidden="true"></i>
-          <i class="nav-icon fa fa-3x fa-dribbble" aria-hidden="true"></i>
-          <i class="nav-icon fa fa-3x fa-twitter" aria-hidden="true"></i>
-          <i class="nav-icon fa fa-3x fa-envelope" aria-hidden="true"></i>
+          <a href="#!" class="nav-hover">
+            <i class="nav-icon fa fa-3x fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="#!" class="nav-hover">
+            <i class="nav-icon fa fa-3x fa-dribbble" aria-hidden="true"></i>
+          </a>
+          <a href="#!" class="nav-hover">
+            <i class="nav-icon fa fa-3x fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="#!" class="nav-hover">
+            <i class="nav-icon fa fa-3x fa-envelope" aria-hidden="true"></i>
+          </a>
         </nav>
       </div>
-    </div>
-    <footer>
-      <div class="content-inner">
-        <div class="footer-box">
-          <p class="footer-text">Crafted&nbsp;with&nbsp;❤&nbsp;by&nbsp;BlackTie.co.</p>
-        </div>
+    </section>
+    <footer class="footer-main">
+      <div class="footer-box content-inner">
+        <p class="footer-text">Crafted with ❤ by BlackTie.co.</p>
       </div>
     </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
