@@ -1,6 +1,9 @@
 body {
   font-family: "Raleway";
 }
+a {
+  text-decoration: none;
+}
 .clearfix:after {
   display: block;
   content: "";
@@ -18,11 +21,10 @@ body {
   }
 }
 /**/
-a {
-  text-decoration: none;
-}
 .header-main {
   background-color: #FFF;
+  width: 100%;
+  position: fixed;
 }
 .header-inner {
   padding-top: 15px;
@@ -118,6 +120,8 @@ a {
 }
 .art-main {
   background-color: #74cfae;
+}
+.art-inner {
   padding-top: 50px;
 }
 /*タブレット*/
@@ -184,7 +188,6 @@ a {
 .section-img {
   display: flex;
   flex-wrap: wrap;
-  height: 680px;
   justify-content: space-between;
   align-content: space-between;
 }
@@ -201,6 +204,10 @@ a {
 .img-hover {
   opacity: 0.7;
   transition: all 0.3s;
+  margin-top: 80px;
+}
+.img-hover:nth-child(-n+3) {
+  margin-top: 0;
 }
 .img-hover:hover {
   transition: all 0.3s;
@@ -291,6 +298,9 @@ a {
 .nav-main {
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.nav-hover {
+  display: inline-block;
 }
 /*スマホ*/
 @media screen and (max-width: 766px) {
