@@ -3,6 +3,7 @@ body {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 .clearfix:after {
   display: block;
@@ -25,6 +26,7 @@ a {
   background-color: #FFF;
   width: 100%;
   position: fixed;
+  z-index: 10000000;
 }
 .header-inner {
   padding-top: 15px;
@@ -85,6 +87,9 @@ a {
   color: #fff;
   display: inline-block;
 }
+.main {
+  padding-top: 70px;
+}
 .main-title {
   background-color: #f2f2f2;
 }
@@ -126,7 +131,7 @@ a {
 }
 /*タブレット*/
 @media screen and (max-width: 1199px) {
-  .art-main {
+  .art-inner {
     padding-bottom: 25px;
   }
 }
@@ -197,7 +202,6 @@ a {
     display: block;
     margin: 0 auto;
     width: 300px;
-    height: 1880px;
   }
 }
 /**/
@@ -219,8 +223,14 @@ a {
 }
 /*タブレット*/
 @media screen and (max-width: 1199px) {
+  .img-hover {
+    margin-top: 0;
+  }
+  .img-hover:nth-child(3n) {
+    margin-bottom: 80px;
+  }
   .text-and-email {
-    margin-top: 80px;
+    margin-top: 0;
   }
 }
 /**/
@@ -299,9 +309,6 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.nav-hover {
-  display: inline-block;
-}
 /*スマホ*/
 @media screen and (max-width: 766px) {
   .nav-main {
@@ -321,6 +328,13 @@ a {
 @media screen and (max-width: 766px) {
   .nav-icon {
     width: 97%;
+  }
+  .nav-hover {
+    width: 100%;
+  }
+  .nav-content {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 /**/
